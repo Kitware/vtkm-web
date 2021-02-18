@@ -1,0 +1,4 @@
+{
+  "vtkm.css": "./dist/vtkm.css",
+  "vtkm.js": "./dist/vtkm.js"
+}
