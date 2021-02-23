@@ -3,5 +3,115 @@
 @tailwind utilities;
 
 @layer base {
-  
+  html {
+    @apply font-sans text-secondary-700;
+  }
+
+  h1 {
+    @apply font-thin text-secondary-800 text-4xl;
+  }
+
+  h2 {
+    @apply font-semibold text-secondary-600 text-2xl;
+  }
+
+  h3 {
+    @apply text-secondary-800 text-xl;
+  }
+
+  h4 {
+    @apply font-light text-secondary-600 text-lg uppercase;
+  }
+
+  .container p, {
+    @apply my-4;
+  }
+
+  a {
+    @apply text-primary-500;
+  }
+
+  a:hover {
+    @apply underline;
+  }
+
+  .button {
+    @apply bg-transparent inline-flex items-center outline-none px-4 py-3 rounded-md text-gray-600;
+  }
+
+  .button:hover {
+    @apply bg-gray-100 no-underline text-gray-800;
+  }
+
+  @responsive {
+    .button.is-sm {
+      @apply px-3 py-2 text-sm;
+    }
+    .button.is-xs {
+      @apply px-2 py-1 rounded text-2xs;
+    }
+  }
+
+  .button.is-shadowed {
+    @apply transition-all;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+  }
+
+  .button.is-shadowed:hover {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+  }
+
+  /* PRIMARY BUTTONS */
+
+  .button.is-primary {
+    @apply bg-primary-500 text-white;
+  }
+
+  .button.is-primary:hover {
+    @apply bg-primary-700 text-white;
+  }
+
+  .button.is-primary.is-outline {
+    @apply bg-transparent border border-primary-500 text-primary-500;
+  }
+
+  .button.is-primary.is-outline:hover {
+    @apply bg-primary-500 text-white;
+  }
+
+  /* SECONDARY BUTTONS */
+
+  .button.is-secondary {
+    @apply bg-secondary-500 text-white;
+  }
+
+  .button.is-secondary:hover {
+    @apply bg-secondary-700 text-white;
+  }
+
+  .button.is-secondary.is-outline {
+    @apply bg-transparent border border-secondary-500 text-secondary-500;
+  }
+
+  .button.is-secondary.is-outline:hover {
+    @apply bg-secondary-500 text-white;
+  }
+
+  /* ACCENT BUTTONS */
+
+  .button.is-accent {
+    @apply bg-accent-600 text-white;
+  }
+
+  .button.is-accent:hover {
+    @apply bg-accent-700 text-white;
+  }
+
+  .button.is-accent.is-outline {
+    @apply bg-transparent border border-accent-600 text-accent-600;
+  }
+
+  .button.is-accent.is-outline:hover {
+    @apply bg-accent-600 text-white;
+  }
 }
