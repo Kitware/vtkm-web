@@ -8,7 +8,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'sans': 'Nunito, sans-serif'
+      'sans': '"Manrope", sans-serif'
     },
     extend: {
       colors: {
