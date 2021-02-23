@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>{{ site.title }} | {{ site.description }}</title>
+
+  <link rel="stylesheet" href="{{ site.data.manifest['vtkm.css'] }}">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Icon Font -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+
+<body class="min-h-screen min-w-full">
+
+  <header class="bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:space-x-10">
+
+        <!-- Logo -->
+        <div class="flex justify-start lg:w-0 lg:flex-1">
+          <a href="#">
+            <span class="sr-only">VTK-m</span>
+            <img class="h-12 w-auto" src="{{ 'img/VTKm_Logo.svg' | prepend: site.baseurl }}" alt="">
+          </a>
+        </div>
+
+        <nav class="flex space-x-6">
+          <a href="#" class="group bg-white rounded-md text-gray-500 inline-flex items-center px-2 text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500">
+            <span>Contact</span>
+          </a>
+          <a href="VTK-m Releases Downloads" class="button is-accent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500" target="_blank">
+            <i class="ri-download-2-fill mr-2 text-xl"></i>
+            <span>Download</span>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
