@@ -59,6 +59,9 @@ module.exports = {
         '2xs': '16rem',
         '3xs': '12rem',
       },
+      textShadow: {
+        '2xl': '0 2px 6px rgba(0, 0, 0, .38), 0 2px 20px rgba(0, 0, 0, .22)',
+      },
     },
   },
   variants: {
@@ -67,5 +70,7 @@ module.exports = {
       display: ['hover', 'focus', 'group-hover', 'group-focus'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow')
+  ],
 }
