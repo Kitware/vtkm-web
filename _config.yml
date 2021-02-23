@@ -1,11 +1,15 @@
+title: VTK-m
+description: A toolkit of scientific visualization algorithms for emerging processor architectures
+baseurl: '/'
+
 defaults:
   - scope:
-      path: ""
+      path: ''
     values:
-      layout: "default"
+      layout: 'default'
 
 exclude:
-  - "*.config.js"
-  - "package*.json"
+  - '*.config.js'
+  - 'package*.json'
   - assets
   - node_modules
