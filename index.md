@@ -4,8 +4,7 @@
 
 permalink: /
 layout: homepage
-
-title: Welcome to my docs
+publications: true
 
 # Hero
 hero_image: 'img/fluids_blend.png'

@@ -25,3 +25,9 @@ exclude:
   - 'package*.json'
   - assets
   - node_modules
+
+plugins: ['jekyll/scholar']
+
+scholar:
+  source: _publications
+  bibliography: pubs.bib

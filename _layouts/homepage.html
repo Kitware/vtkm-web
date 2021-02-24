@@ -17,5 +17,14 @@
     {% include resources.html %}
   </div>
 </section>
+{% endif %}
+
+{% if page.publications == true %}
+<section class="py-6 lg:py-16">
+  <div class="container max-w-7xl mx-auto px-6">
+    {% include publications.html %}
+  </div>
+</section>
+{% endif %}
 
 {% include footer.html %}

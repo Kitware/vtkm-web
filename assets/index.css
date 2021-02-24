@@ -114,4 +114,12 @@
   .button.is-accent.is-outline:hover {
     @apply bg-accent-600 text-white;
   }
+
+  .bibliography {
+    @apply border-t border-gray-300;
+  }
+
+  .bibliography li {
+    @apply border-b border-gray-300 py-3;
+  }
 }
