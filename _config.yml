@@ -2,6 +2,18 @@ title: VTK-m
 description: A toolkit of scientific visualization algorithms for emerging processor architectures
 baseurl: '/'
 
+# Footer Info
+footer_license: License info goes here
+footer_links:
+  - title: Kitware
+    url: 'https://kitware.com'
+  - title: Privacy Policy
+    url: 'https://m.vtk.org/index.php/VTKM:Privacy_policy'
+  - title: Disclaimers
+    url: 'https://m.vtk.org/index.php/VTKM:General_disclaimer'
+  - title: Contact
+    url: '#'
+
 defaults:
   - scope:
       path: ''
