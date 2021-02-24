@@ -42,7 +42,6 @@ This website utilizes [TailwindCSS](https://tailwindcss.com/docs) as a CSS frame
 3. Support for 2 smaller min-width/max-width sizes, ie. `max-w-2xs` or `min-w-3xs`
 4. Added [plugin](https://www.npmjs.com/package/tailwindcss-textshadow) to support `text-shadow` classes
     - Extended the plugin's classes to include `text-shadow-2xl` for a larger shadow.
-5. 
 
 **Various helper classes have been added to the CSS that are not related to Tailwind**
 1. Buttons - use the class `button` on any `<a>`
