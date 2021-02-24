@@ -27,13 +27,13 @@ If you should need to set this up again, refer to https://www.netlify.com/blog/2
 
 ## Documentation and resources
 
-#### Jekyll Scholar
+### Jekyll Scholar
 This website utilizes the [Jekyll Scholar plugin](https://github.com/inukshuk/jekyll-scholar) to parse bibliography files.
 
-#### Icons
+### Icons
 We are using [Remix Icon](https://remixicon.com/) to handle all iconography on the website. Add something like `<i class="ri-pencil-fill"></i>` to use an icon.
 
-#### Tailwind CSS
+### Tailwind CSS
 This website utilizes [TailwindCSS](https://tailwindcss.com/docs) as a CSS framework. The benefit is that it gives you access to the full palette of CSS attributes as clases without writing any CSS.
 
 **We've extended our configuration of Tailwind CSS in the following ways:**
