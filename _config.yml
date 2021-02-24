@@ -14,6 +14,15 @@ footer_links:
   - title: Contact
     url: '#'
 
+# Publications
+pubs_title: VTK-m Publications
+pubs_blurb: Please use the first paper when referencing VTK-m in scientific publications.
+pubs_buttons:
+  - label: Presentations
+    url: https://m.vtk.org/index.php/Presentations
+  - label: Logos
+    url: https://m.vtk.org/index.php/Logos
+
 defaults:
   - scope:
       path: ''
