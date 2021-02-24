@@ -1,7 +1,7 @@
 <div class="lg:flex">
   <div class="p-6 w-full md:p-10 lg:w-1/3">
     <h2 class="font-light text-5xl text-primary-500">{{ page.resources_title }}</h2>
-    <p>{{ page.resources_blurb }}</p>
+    {{ page.resources_blurb }}
   </div>
   <div class="gap-4 grid grid-cols-2 p-6 pt-0 md:flex-grow md:grid-cols-3 lg:p-10 lg:grid-cols-4">
     {% for resource in page.resources %}

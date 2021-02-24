@@ -16,7 +16,10 @@ download_link: 'https://gitlab.kitware.com/vtk/vtk-m/-/releases'
 
 # Resources
 resources_title: VTK-m Resources
-resources_blurb: Some text here some text here some text here some text here some text here some text here some text here some text here.
+resources_blurb: >-
+  <p>Some text here some text here some text here some text here some text here some text here some text here some text here.</p>
+  <p class="text-xs">Are you funded by the ECP/VTK-m project? See <a href="https://m.vtk.org/index.php/ECP/VTK-m_project_management" target="_blank">ECP/VTK-m project management</a>.</p>
+
 resources:
   - name: Building VTK-m
     icon: ri-stack-fill
