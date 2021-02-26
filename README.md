@@ -43,8 +43,9 @@ This website utilizes [TailwindCSS](https://tailwindcss.com/docs) as a CSS frame
 4. Added [plugin](https://www.npmjs.com/package/tailwindcss-textshadow) to support `text-shadow` classes
     - Extended the plugin's classes to include `text-shadow-2xl` for a larger shadow.
 
-**Various helper classes have been added to the CSS that are not related to Tailwind**
-1. Buttons - use the class `button` on any `<a>`
+**We've also added NON-Tailwind helper classes to improve the overall Tailwind experience.**
+1. Content - We've added a `.content` class to a wrapper of the content for the purpose of adding styles to `<ul>`'s, `<ol>`'s and `<p>`'s (since Tailwind strips those bare.
+2. Buttons - use the class `button` on any `<a>`
     - Append these classes for different types of buttons
         - `is-sm` - Small button
         - `is-xs` - Extra small button
@@ -53,4 +54,4 @@ This website utilizes [TailwindCSS](https://tailwindcss.com/docs) as a CSS frame
         - `is-secondary` - Button will use the secondary color set in the Tailwind config
         - `is-accent` - Button will use the accent color set in the Tailwind config
         - `is-outline` - Will make an outlined button
-2. Bibliography - The jekyll-scholar plugin addes an `<ol>` with a class of `bibliography`. The bibliography class has been added to the CSS to add some simple styles
+3. Bibliography - The jekyll-scholar plugin addes an `<ol>` with a class of `bibliography`. The bibliography class has been added to the CSS to add some simple styles
