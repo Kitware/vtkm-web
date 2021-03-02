@@ -4,14 +4,14 @@
 
 permalink: /
 layout: homepage
-publications: true
 
 # Hero
 hero_image: 'img/fluids_blend.png'
 
 # Download CTA
 download_title: Getting started
-download_message: Download the latest release and then follow the instructions. If you're not already a VTK user and want to learn more about the original toolkit, <a href="http://vtk.org" target="_blank">check it out</a>.
+download_message: >-
+  <p>Download the latest release and then follow the instructions. If you're not already a VTK user and want to learn more about the original toolkit, <a href="http://vtk.org" target="_blank">check it out</a>.</p>
 download_link: 'https://gitlab.kitware.com/vtk/vtk-m/-/releases'
 
 # Resources
@@ -42,6 +42,18 @@ resources:
   - name: Tutorial
     icon: ri-lightbulb-flash-fill
     link: 'https://m.vtk.org/index.php/Tutorial'
+
+# Publications
+publications: true
+pubs_title: VTK-m Publications
+pubs_blurb: >-
+  <p>Please use the first paper when referencing VTK-m in scientific publications.</p>
+pubs_buttons:
+  - label: Presentations
+    url: https://m.vtk.org/index.php/Presentations
+  - label: Logos
+    url: https://m.vtk.org/index.php/Logos
+
 ---
 
 # What is VTK-m?
