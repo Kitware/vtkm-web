@@ -4,3 +4,7 @@ _site/
 .jekyll-metadata
 node_modules
 .DS_Store
+
+# These files are built by "npm run prod"
+_data/manifest.yml
+dist/
