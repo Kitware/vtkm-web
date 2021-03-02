@@ -1,0 +1,6 @@
+- name: Assets
+  url: /vtk-assets
+- name: Tutorial
+  url: /tutorial
+- name: Contact
+  url: /contact
