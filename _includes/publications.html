@@ -1,8 +1,8 @@
 <div class="lg:flex">
-  <div class="p-6 w-full lg:p-10 lg:w-1/3">
-    <h2 class="font-light text-5xl text-primary-500">{{ site.pubs_title }}</h2>
-    {{ site.pubs_blurb }}
-    {% for button in site.pubs_buttons %}
+  <div class="p-6 w-full md:p-10 lg:w-1/3">
+    <h2 class="font-light text-5xl text-primary-500">{{ page.pubs_title }}</h2>
+    {{ page.pubs_blurb }}
+    {% for button in page.pubs_buttons %}
       <a href="{{ button.url }}" class="button flex is-accent justify-between mt-3 text-lg" target="_blank">
         {{ button.label}}
         <i class="ri-arrow-right-s-line"></i>

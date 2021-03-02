@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>{{ site.title }} | {{ site.description }}</title>
+  {% if page.url == '/' %}
+    <title>{{ site.title }} | {{ site.description }}</title>
+  {% else %}
+    <title>{{ page.title }} | {{ site.title }}</title>
+  {% endif %}
 
   <link rel="stylesheet" href="{{ site.data.manifest['vtkm.css'] }}">
 
@@ -18,24 +22,34 @@
 
   <header class="bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
-      <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:space-x-10">
+      <div class="flex justify-between items-stretch h-20">
 
         <!-- Logo -->
-        <div class="flex justify-start lg:w-0 lg:flex-1">
-          <a href="#">
+        <div class="flex items-center justify-start lg:w-0 lg:flex-1">
+          <a href="{{ site.baseurl }}">
             <span class="sr-only">VTK-m</span>
-            <img class="h-12 w-auto" src="{{ 'img/VTKm_Logo.svg' | prepend: site.baseurl }}" alt="">
+            <img class="h-8 w-auto md:h-12" src="{{ 'img/VTKm_Logo.svg' | prepend: site.baseurl }}" alt="">
           </a>
         </div>
 
-        <nav class="flex space-x-6">
-          <a href="#" class="group bg-white rounded-md text-gray-500 inline-flex items-center px-2 text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500">
-            <span>Contact</span>
-          </a>
-          <a href="VTK-m Releases Downloads" class="button is-accent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500" target="_blank">
-            <i class="ri-download-2-fill mr-2 text-xl"></i>
-            <span>Download</span>
-          </a>
+        <nav class="flex">
+          {% if site.data.nav %}
+          <ul class="flex space-x-6">
+            {% for item in site.data.nav %}
+            <li>
+              <a href="{{ item.url }}" class="block border-b-0 border-transparent flex h-full items-center text-gray-700 transition-all hover:no-underline hover:border-b-4 hover:border-accent-500">
+                <span>{{ item.name }}</span>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          <div class="flex items-center pl-8">
+            <a href="{{ site.download_link }}" class="button is-accent" target="_blank">
+              <i class="ri-download-2-fill mr-2 text-xl"></i>
+              <span>Download</span>
+            </a>
+          </div>
         </nav>
       </div>
     </div>
