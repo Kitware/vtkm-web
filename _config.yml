@@ -1,6 +1,9 @@
 title: VTK-m
 description: A toolkit of scientific visualization algorithms for emerging processor architectures
 baseurl: '/'
+markdown: kramdown
+
+download_link: https://gitlab.kitware.com/vtk/vtk-m/-/releases
 
 # Footer Info
 footer_license: License info goes here
@@ -12,16 +15,7 @@ footer_links:
   - title: Disclaimers
     url: 'https://m.vtk.org/index.php/VTKM:General_disclaimer'
   - title: Contact
-    url: '#'
-
-# Publications
-pubs_title: VTK-m Publications
-pubs_blurb: Please use the first paper when referencing VTK-m in scientific publications.
-pubs_buttons:
-  - label: Presentations
-    url: https://m.vtk.org/index.php/Presentations
-  - label: Logos
-    url: https://m.vtk.org/index.php/Logos
+    url: '/contact'
 
 defaults:
   - scope:
