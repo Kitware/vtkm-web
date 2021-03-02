@@ -13,16 +13,16 @@ module.exports = {
     extend: {
       colors: {
         'accent': {
-            '50': '#fafef6',
-            '100': '#f5fdec',
-            '200': '#e5fad0',
-            '300': '#d5f7b4',
-            '400': '#b6f07b',
-            '500': '#96ea43',
-            '600': '#87d33c',
-            '700': '#71b032',
-            '800': '#5a8c28',
-            '900': '#4a7321'
+            '50': '#f8fcf3', 
+            '100': '#f1f8e7',
+            '200': '#dbeec3',
+            '300': '#c5e49f',
+            '400': '#9ad058',
+            '500': '#6fbc10',
+            '600': '#64a90e',
+            '700': '#538d0c',
+            '800': '#43710a',
+            '900': '#365c08'
         },'secondary': {
             '50': '#fafafa',
             '100': '#f4f4f5',
@@ -66,7 +66,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      borderWidth: ['last'],
+      borderWidth: ['hover', 'last'],
       display: ['hover', 'focus', 'group-hover', 'group-focus'],
     },
   },
