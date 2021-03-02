@@ -12,7 +12,7 @@
   }
 
   h2 {
-    @apply font-semibold text-secondary-600 text-2xl;
+    @apply font-semibold text-secondary-800 text-2xl;
   }
 
   h3 {
@@ -23,7 +23,7 @@
     @apply font-light text-secondary-600 text-lg uppercase;
   }
 
-  .container p, {
+  .content p {
     @apply my-4;
   }
 
@@ -100,19 +100,19 @@
   /* ACCENT BUTTONS */
 
   .button.is-accent {
-    @apply bg-accent-600 text-white;
+    @apply bg-accent-500 text-white;
   }
 
   .button.is-accent:hover {
-    @apply bg-accent-700 text-white;
+    @apply bg-accent-600 text-white;
   }
 
   .button.is-accent.is-outline {
-    @apply bg-transparent border border-accent-600 text-accent-600;
+    @apply bg-transparent border border-accent-500 text-accent-500;
   }
 
   .button.is-accent.is-outline:hover {
-    @apply bg-accent-600 text-white;
+    @apply bg-accent-500 text-white;
   }
 
   .bibliography {
@@ -121,5 +121,32 @@
 
   .bibliography li {
     @apply border-b border-gray-300 py-3;
+  }
+
+  code,
+  pre code {
+    @apply bg-gray-50 border border-gray-200 break-words py-1 px-2 rounded text-sm;
+    box-decoration-break: clone;
+  }
+
+  pre code {
+    @apply inline-block py-2 px-3;
+  }
+
+  .content ul,
+  .content ol {
+    @apply pl-10;
+  }
+
+  .content ul li {
+    @apply list-disc;
+  }
+
+  .content ol li {
+    @apply list-decimal;
+  }
+
+  hr {
+    @apply my-6;
   }
 }
