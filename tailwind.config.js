@@ -4,7 +4,11 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: false,
+  purge: [
+    // If source HTML files are ever added to this project in another directory, include them here
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
@@ -13,7 +17,7 @@ module.exports = {
     extend: {
       colors: {
         'accent': {
-            '50': '#f8fcf3', 
+            '50': '#f8fcf3',
             '100': '#f1f8e7',
             '200': '#dbeec3',
             '300': '#c5e49f',
