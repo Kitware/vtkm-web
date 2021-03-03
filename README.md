@@ -1,14 +1,14 @@
 # vtkm-web
 This repository is home to the files for the VTK-m website. Below you will find building and deployment instructions as well as documentation for plugins and packages that this website depends on.
 
+**Note:** This site will not build on GitHub pages. It can be optimized to do so, however the "jekyll-scholar" plugin does not work on GitHub Pages, so we opted for deploying on Netlify.
+
 ## Developing locally
 Start by cloning this repository followed by `cd vtkm-web`.
 
-#### Setting up Jekyll
-1. Install gem dependencies using bundler - `bundle install` (if you don't have bundler installed, you may need to run `gem install bundler`)
-2. Serve the site using `bundle exec jekyll serve`
+#### Building Tailwind
+Tailwind and our other dev packages need to be built prior to Jekyll, as it needs the `manifest.yml` file to link to the properly built CSS.
 
-#### Building the code
 1. Open a new tab in your shell application
 2. Install dev dependencies - `npm install`
 3. Run one of the build commands:
@@ -16,7 +16,10 @@ Start by cloning this repository followed by `cd vtkm-web`.
     - To build for production run `npm run prod`
     - If you are making a lot of changes, you might want to watch for changes using `npm run watch`
 
-**NOTE:** Make sure you build for production before pushing your changes live. PurgeCSS only works on the production build, so you'll likely have enormous CSS/JS files if you don't.
+#### Setting up Jekyll
+1. Install gem dependencies using bundler - `bundle install` (if you don't have bundler installed, you may need to run `gem install bundler`)
+    - You may need to update the bundler gems. If so, run `bundle update`.
+3. Serve the site using `bundle exec jekyll serve`, or build using `bundle exec jekyll build`
 
 ## Deploying this site
 We are using Netlify to deploy the site. Committing and pushing your changes should be all that is needed to deploy.
