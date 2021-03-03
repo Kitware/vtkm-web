@@ -28,6 +28,7 @@ exclude:
   - 'package*.json'
   - assets
   - node_modules
+  - vendor
 
 plugins: ['jekyll/scholar']
 
