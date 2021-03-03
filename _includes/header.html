@@ -21,7 +21,7 @@
 <body class="min-h-screen min-w-full">
 
   <header class="bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="max-w-7xl mx-auto px-4 relative sm:px-6">
       <div class="flex justify-between items-stretch h-20">
 
         <!-- Logo -->
@@ -32,12 +32,12 @@
           </a>
         </div>
 
-        <nav class="flex">
+        <nav class="flex items-stretch">
           {% if site.data.nav %}
-          <ul class="flex space-x-6">
+          <ul id="menu" class="absolute bg-gray-50 hidden inset-x-0 p-6 top-full z-50 md:bg-transparent md:flex md:p-0 md:static md:space-x-6">
             {% for item in site.data.nav %}
             <li>
-              <a href="{{ item.url }}" class="block border-b-0 border-transparent flex h-full items-center text-gray-700 transition-all hover:no-underline hover:border-b-4 hover:border-accent-500">
+              <a href="{{ item.url }}" class="block border-b-0 border-transparent flex h-full items-center py-4 text-gray-700 transition-all hover:no-underline hover:border-b-4 hover:border-accent-500 md:py-0">
                 <span>{{ item.name }}</span>
               </a>
             </li>
@@ -50,6 +50,13 @@
               <span>Download</span>
             </a>
           </div>
+          {% if site.data.nav %}
+          <button id="menuBtn" class="hamburger block ml-5 md:hidden focus:outline-none" type="button" onclick="navToggle();">
+            <span class="hamburger__top"></span>
+            <span class="hamburger__mid"></span>
+            <span class="hamburger__bot"></span>
+          </button>
+          {% endif %}
         </nav>
       </div>
     </div>

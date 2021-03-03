@@ -3,8 +3,46 @@
 @tailwind utilities;
 
 @layer base {
+
   html {
     @apply font-sans text-secondary-700;
+  }
+
+  /* Navigation */
+  .hamburger {
+    @apply cursor-pointer duration-200 relative transition-all w-6;
+  }
+
+  .hamburger.open .hamburger__top {
+    @apply translate-y-0 rotate-45;
+  }
+
+  .hamburger.open .hamburger__mid {
+    @apply opacity-0;
+  }
+
+  .hamburger.open .hamburger__bot {
+    @apply translate-y-0 -rotate-45;
+  }
+
+  .hamburger__top,
+  .hamburger__mid,
+  .hamburger__bot {
+    @apply absolute bg-gray-800 inset-x-0 opacity-100 rotate-0 transition-all transform;
+    content: '';
+    height: 2px;
+  }
+
+  .hamburger__top {
+    @apply transform -translate-y-2;
+  }
+
+  .hamburger__mid {
+
+  }
+
+  .hamburger__bot {
+    @apply transform translate-y-2;
   }
 
   h1 {
