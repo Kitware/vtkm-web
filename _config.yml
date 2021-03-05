@@ -23,6 +23,8 @@ defaults:
     values:
       layout: 'default'
 
+include: ['_pages']
+
 exclude:
   - '*.config.js'
   - 'package*.json'
