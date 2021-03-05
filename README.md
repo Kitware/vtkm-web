@@ -23,6 +23,9 @@ Tailwind and our other dev packages need to be built prior to Jekyll, as it need
     - You may need to update the bundler gems. If so, run `bundle update`.
 3. Serve the site using `bundle exec jekyll serve`, or build using `bundle exec jekyll build`
 
+#### Other things to note
+- All pages (including index) will be found in the `_pages` directory. `permalink: /page_name` is required on all pages.
+
 ## Deploying this site
 We are using Netlify to deploy the site. Committing and pushing your changes should be all that is needed to deploy.
 
