@@ -37,3 +37,4 @@ plugins: ['jekyll/scholar']
 scholar:
   source: _publications
   bibliography: pubs.bib
+  style: apa-annotated-bibliography
