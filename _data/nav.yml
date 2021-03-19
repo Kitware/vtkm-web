@@ -3,4 +3,5 @@
 - name: Tutorial
   url: /tutorial
 - name: Contact
-  url: /contact
+  url: https://vtk.org/mailman/listinfo/vtkm
+  new_tab: true

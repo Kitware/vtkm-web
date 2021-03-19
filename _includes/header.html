@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   {% if page.url == '/' %}
     <title>{{ site.title }} | {{ site.description }}</title>
   {% else %}
@@ -39,7 +39,7 @@
           <ul id="menu" class="absolute bg-gray-50 hidden inset-x-0 p-6 top-full z-50 md:bg-transparent md:flex md:p-0 md:static md:space-x-6">
             {% for item in site.data.nav %}
             <li>
-              <a href="{{ item.url }}" class="block border-b-0 border-transparent flex h-full items-center py-4 text-gray-700 transition-all hover:no-underline hover:border-b-4 hover:border-accent-500 md:py-0">
+              <a href="{{ item.url }}" class="block border-b-0 border-transparent flex h-full items-center py-4 text-gray-700 transition-all hover:no-underline hover:border-b-4 hover:border-accent-500 md:py-0" {% if item.new_tab %}target="_blank"{% endif %}>
                 <span>{{ item.name }}</span>
               </a>
             </li>
