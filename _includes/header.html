@@ -50,7 +50,7 @@
             {% for item in site.data.nav %}
               {% if item.dropdown %}
                 <li class="relative group" onclick="ddToggle();">
-                  <div class="block border-b-0 border-transparent cursor-pointer flex h-full items-center justify-between p-4 text-gray-700 transition-all md:group-hover:border-b-4  md:group-hover:bg-gray-50 md:py-0">
+                  <div class="block border-b-0 border-transparent cursor-pointer flex h-full items-center justify-between p-4 text-gray-700 transition-all md:group-hover:border-b-4 md:group-hover:border-accent-500  md:group-hover:bg-gray-50 md:py-0">
                     <span>{{ item.name }}</span>
                     <i id="ddIcon" class="ri-arrow-down-s-line ml-2 text-lg"></i>
                   </div>
