@@ -187,4 +187,29 @@
   hr {
     @apply my-6;
   }
+
+  table {
+    @apply table-auto;
+  }
+
+  .content table {
+    @apply w-full;
+  }
+
+  table th,
+  table td {
+    @apply px-4 py-2;
+  }
+
+  table th {
+    @apply bg-secondary-200 border border-secondary-300 text-secondary-800;
+  }
+
+  table tr:nth-of-type(even) {
+    @apply bg-secondary-100;
+  }
+
+  table td {
+    @apply border border-secondary-300 text-secondary-600 font-medium;
+  }
 }
