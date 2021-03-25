@@ -14,42 +14,42 @@ sections:
 # Logos
 If you need to reference VTK-m anywhere, you may use our logo for recognition.
 
-<table markdown="1">
-  <thead>
-    <th>Type</th>
-    <th width="200">Thumbnail</th>
-    <th>File types & sizes</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        **PNG**
-      </td>
-      <td>
-        ![PNG](/img/logos/VTKm_Logo_512.png)
-      </td>
-      <td>
-        - [High Res](/img/logos/VTKm_Logo_Hi.png)
-        - [1024](/img/logos/VTKm_Logo_1024.png)
-        - [512](/img/logos/VTKm_Logo_512.png)
-        - [256](/img/logos/VTKm_Logo_256.png)
-        - [128](/img/logos/VTKm_Logo_128.png)
-        - [64](/img/logos/VTKm_Logo_Hi.png)
-      </td>
-    </tr>
-    <tr>
-      <td>
-        **SVG**
-      </td>
-      <td>
-        ![SVG](/img/VTKm_Logo.svg)
-      </td>
-      <td>
-        - [SVG](/img/VTKm_Logo.svg)
-        - [PDF](/img/logos/VTKm_Logo.pdf)
-      </td>
-    </tr>
-  </tbody>
+<table>
+<thead>
+<th>Type</th>
+<th width="200">Thumbnail</th>
+<th>File types & sizes</th>
+</thead>
+<tbody>
+<tr>
+<td markdown="1">
+**PNG**
+</td>
+<td markdown="1">
+![PNG](/img/logos/VTKm_Logo_512.png)
+</td>
+<td markdown="1">
+- [High Res](/img/logos/VTKm_Logo_Hi.png)
+- [1024](/img/logos/VTKm_Logo_1024.png)
+- [512](/img/logos/VTKm_Logo_512.png)
+- [256](/img/logos/VTKm_Logo_256.png)
+- [128](/img/logos/VTKm_Logo_128.png)
+- [64](/img/logos/VTKm_Logo_Hi.png)
+</td>
+</tr>
+<tr>
+<td markdown="1">
+**SVG**
+</td>
+<td markdown="1">
+![SVG](/img/VTKm_Logo.svg)
+</td>
+<td markdown="1">
+- [SVG](/img/VTKm_Logo.svg)
+- [PDF](/img/logos/VTKm_Logo.pdf)
+</td>
+</tr>
+</tbody>
 </table>
 
 
