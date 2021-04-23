@@ -18,7 +18,6 @@ download_link: 'https://gitlab.kitware.com/vtk/vtk-m/-/releases'
 # Resources
 resources_title: VTK-m Resources
 resources_blurb: >-
-  <p>Some text here some text here some text here some text here some text here some text here some text here some text here.</p>
   <p class="text-xs">Are you funded by the ECP/VTK-m project? See <a href="https://m.vtk.org/index.php/ECP/VTK-m_project_management" target="_blank">ECP/VTK-m project management</a>.</p>
 
 resources:
@@ -42,18 +41,16 @@ resources:
     link: 'http://m.vtk.org/documentation/'
   - name: Tutorial
     icon: ri-lightbulb-flash-fill
-    link: 'https://m.vtk.org/index.php/Tutorial'
+    link: '/tutorial'
+  - name: VTK-m Assets
+    icon: ri-database-line
+    link: '/assets'
 
 # Publications
 publications: true
 pubs_title: VTK-m Publications
 pubs_blurb: >-
   <p>Please use the first paper when referencing VTK-m in scientific publications.</p>
-pubs_buttons:
-  - label: Presentations
-    url: https://m.vtk.org/index.php/Presentations
-  - label: Logos
-    url: https://m.vtk.org/index.php/Logos
 
 ---
 

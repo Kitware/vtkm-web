@@ -70,7 +70,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      borderWidth: ['hover', 'last'],
+      borderWidth: ['hover', 'focus', 'group-hover', 'group-focus', 'last'],
       display: ['hover', 'focus', 'group-hover', 'group-focus'],
     },
   },
