@@ -7,6 +7,7 @@ layout: homepage
 
 # Hero
 hero_image: 'img/fluids_blend.png'
+hero_attribution: '<strong>Image Credit:</strong> Matthew Larsen, LLNL. This image is of an idealized Inertial Confinement Fusion (ICF) simulation of a Rayleigh-Taylor instability with two fluids mixing in a spherical geometry.'
 
 # Download CTA
 download_title: Getting started
