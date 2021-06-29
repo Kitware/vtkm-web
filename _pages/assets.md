@@ -57,11 +57,16 @@ If you need to reference VTK-m anywhere, you may use our logo for recognition.
 
 # Presentations
 Here is a list of presentations about VTK-m for your reference.
-- [Presentation by Matt Larsen](https://drive.google.com/file/d/1vR6ctAr8_hH_-oyIHBoqx9IrZKe5eE8i/view?usp=sharing){:target="_blank"} as part of panel on VTK-m at scale at DOECGF (April 2019)
-- [Presentation by Dave Pugmire](https://drive.google.com/file/d/1wC7nUQORiWjC2EOq7XQubY4b_CWV8KqN/view?usp=sharing){:target="_blank"} as part of panel on VTK-m at scale at DOECGF (April 2019)
+- [VTK-m Update](https://drive.google.com/file/d/1ZKJNJNJGG4ixIAtw64NPhI95QUbpeMxh/view?usp=sharing){:target="_blank"} at DOECGF (April 2021)
+- [VTK-m Update](https://drive.google.com/file/d/11P6pa-RtzKbX4nGsTD_YBJLP11IXOg_v/view?usp=sharing){:target="_blank"} at DOECGF (April 2020)
+- [ECP/VTK-m poster](https://drive.google.com/file/d/1UAXwcZaDbwTVBGqByGR3YuxOxjWEa1W0/view?usp=sharing){:target="_blank"} (ECP Annual Meeting, February 2020)
+- [Simulating and Visualizing Turbulent Fluid Mixing
+using 16,384 GPUs on LLNL's Sierra Supercomputer](https://drive.google.com/file/d/1vR6ctAr8_hH_-oyIHBoqx9IrZKe5eE8i/view?usp=sharing){:target="_blank"} as part of panel on VTK-m at scale at DOECGF (April 2019)
+- [VTKm at Scale: Experiences from a Recent In Situ Research Project](https://drive.google.com/file/d/1wC7nUQORiWjC2EOq7XQubY4b_CWV8KqN/view?usp=sharing){:target="_blank"} as part of panel on VTK-m at scale at DOECGF (April 2019)
 - [VTK-m Update](https://drive.google.com/file/d/1CBX5RhsSRyuWK9NsfHEJq-gHhs4HpgqL/view?usp=sharing){:target="_blank"} at DOECGF (April 2019)
 - [VTK-m: Lessons from Building a Visualization Toolkit for Massively Threaded Architectures](https://drive.google.com/file/d/1eadMYNYE4Dd_rG0LoLh8o5zEy4HSBWj8/view?usp=sharing){:target="_blank"} (NVIDIA - GTC, March 20, 2019)
 - [Brief tutorial at ECP Annual Meeting](https://drive.google.com/file/d/1fWYlF7us7iW0Z2RBR_9T4eEiIHqkFmKp/view?usp=sharing){:target="_blank"} (January 2019)
+- [ECP/VTK-m poster](https://drive.google.com/file/d/14bK4MWhROmmFTOl8myws0AitN4-_KfrX/view?usp=sharing){:target="_blank"} (ECP Annual Meeting, January 2019)
 - [VTK-m Update](https://drive.google.com/file/d/1Dd7mNOFSjFZHiEo0kCYiOvIB9Pv56YOG/view?usp=sharing){:target="_blank"} at DOECGF (April 2018)
 - [Data Analysis and Visualization Mini-Symposium](https://drive.google.com/file/d/1g5tK8mdUwPmmYhfbJa2fuUQS9DJg549-/view?usp=sharing){:target="_blank"} (February 2018)
 - [Brief tutorial at ECP Annual Meeting](https://drive.google.com/file/d/1r13fwISB1uz0E3lC_K7YMwCm4cj0I5D7/view?usp=sharing){:target="_blank"} (February 2018)
@@ -75,7 +80,6 @@ Here is a list of presentations about VTK-m for your reference.
 - [SC15 Kitware Booth Presentations](/img/presentations/SC15_Kitware_Booth_Presentations){:target="_blank"} (November 17-19, 2015)
 - [VTK-m: Building a Visualization Toolkit for Massively Threaded Architectures](https://drive.google.com/file/d/1Nhj4kT6EqEilGBIJx3-DvrvhbYFhWl3A/view?usp=sharing){:target="_blank"} (November 16, 2015)
 - [VTK-m Overview for Intel Design Review](https://drive.google.com/file/d/1m8AdBp8i5cBD_6LyW5UU-pdDq2Zp82nT/view?usp=sharing){:target="_blank"} (October 12, 2015)
-- VTK-m, FASTMath PI Meeting (September 28/29, 2015) **(WIP)**
 - [VTK-m Overview for Code Sprint](https://drive.google.com/file/d/1XaABidfb9nn18OtHKrjaSVFeXYOUa2bD/view?usp=sharing){:target="_blank"} (September 1, 2015)
 - [VTK-m poster from SciDAC PI Meeting](https://drive.google.com/file/d/1jfzZc-dqr3WXoGc7UuDSPHS5qP1Y5Zhw/view?usp=sharing){:target="_blank"} (July 2015)
 - [VTK-m](https://drive.google.com/file/d/1Pjcl4aO3MRS3l4tHu5NNemh2tGY0NZFK/view?usp=sharing){:target="_blank"} (DOECGF, April 29, 2015)
