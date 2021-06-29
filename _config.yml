@@ -11,11 +11,9 @@ footer_links:
   - title: Kitware
     url: 'https://kitware.com'
   - title: Privacy Policy
-    url: 'https://m.vtk.org/index.php/VTKM:Privacy_policy'
-  - title: Disclaimers
-    url: 'https://m.vtk.org/index.php/VTKM:General_disclaimer'
+    url: 'https://www.kitware.com/privacy/#privacy-policy'
   - title: Contact
-    url: '/contact'
+    url: 'https://www.kitware.com/contact-us/'
 
 defaults:
   - scope:
