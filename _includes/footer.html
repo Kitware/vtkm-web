@@ -3,13 +3,15 @@
       <div class="py-6">
         <p class="space-x-3">
           {% for link in site.footer_links %}
-            <a href="{{ link.url | prepend: site.baseurl }}" class="text-primary-400" target="_blank">{{ link.title }}</a>
+            <a href="{{ link.url }}" class="text-primary-400" target="_blank">{{ link.title }}</a>
           {% endfor %}
         </p>
       </div>
+      <!--
       <div class="py-6">
         {{ site.footer_license }}
       </div>
+      -->
     </div>
   </footer>
 
