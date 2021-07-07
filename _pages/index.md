@@ -51,6 +51,7 @@ publications: true
 pubs_title: VTK-m Publications
 pubs_blurb: >-
   <p>Please use the first paper when referencing VTK-m in scientific publications.</p>
+  <p><small><a href="https://raw.githubusercontent.com/Kitware/vtkm-web/master/_publications/pubs.bib" target="_blank">bib file</a></small></p>
 
 ---
 
