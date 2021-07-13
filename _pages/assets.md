@@ -57,6 +57,7 @@ If you need to reference VTK-m anywhere, you may use our logo for recognition.
 
 # Presentations
 Here is a list of presentations about VTK-m for your reference.
+- [Enabling Visualization on Exascale Accelerators with VTK-m](https://drive.google.com/file/d/16dYZFHv9zHGCZmKoBNX8c_W-li1mvrvM/view?usp=sharing){:target="_blank"} at RAPIDS2-DU Monthly Meeting (July 14, 2021)
 - [VTK-m Update](https://drive.google.com/file/d/1ZKJNJNJGG4ixIAtw64NPhI95QUbpeMxh/view?usp=sharing){:target="_blank"} at DOECGF (April 2021)
 - [VTK-m Update](https://drive.google.com/file/d/11P6pa-RtzKbX4nGsTD_YBJLP11IXOg_v/view?usp=sharing){:target="_blank"} at DOECGF (April 2020)
 - [ECP/VTK-m poster](https://drive.google.com/file/d/1UAXwcZaDbwTVBGqByGR3YuxOxjWEa1W0/view?usp=sharing){:target="_blank"} (ECP Annual Meeting, February 2020)
