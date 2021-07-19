@@ -1,7 +1,7 @@
 - name: Welcome
   url: /
 - name: Resources
-  url: /tutorial
+  url: /#resources
   dropdown:
     - name: Building VTK-m
       url: https://gitlab.kitware.com/vtk/vtk-m/blob/master/README.md#building
@@ -25,6 +25,8 @@
       new_tab: true
     - name: VTK-m Assets
       url: /assets
+    - name: Publications
+      url: /#publications
 - name: Contact
   url: https://vtk.org/mailman/listinfo/vtkm
   new_tab: true
