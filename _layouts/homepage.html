@@ -13,7 +13,7 @@
   </section>
 
   {% if page.resources != empty %}
-  <section class="bg-gradient-to-br from-secondary-100 to-secondary-300 py-6 lg:py-16">
+  <section id="resources" class="bg-gradient-to-br from-secondary-100 to-secondary-300 py-6 lg:py-16">
     <div class="container max-w-7xl mx-auto px-4 sm:px-6">
       {% include resources.html %}
     </div>
@@ -21,7 +21,7 @@
   {% endif %}
 
   {% if page.publications == true %}
-  <section class="py-6 lg:py-16">
+  <section id="publications" class="py-6 lg:py-16">
     <div class="container max-w-7xl mx-auto px-4 sm:px-6">
       {% include publications.html %}
     </div>
