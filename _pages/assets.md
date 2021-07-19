@@ -21,6 +21,17 @@ Below is a selected list of highlights generated for VTK-m related R&D.
 
 <tr>
 <td markdown="1">
+[**In Situ Vector Field Reduction Using Lagrangian Basis Flows**](https://drive.google.com/file/d/1tF0OYWwttFsAy81CJbL9-kwxFhOWShIg/view?usp=sharing){:target="_blank"}  
+Lagrangian Basis Flows are an alternate representation of flow fields that record displacement rather than velocity.
+VTK-m is used to compute Lagrangian Basis Flows in situ with simulation to reduce I/O demands and improve post hoc analysis accuracy.
+</td>
+<td markdown="1" width="332">
+![Lagrangian Basis Flows](/img/highlight-thumbnails/Lagrangian-Basis-Flows-2021.jpg)
+</td>
+</tr>
+
+<tr>
+<td markdown="1">
 [**In Situ Visualization in WDMApp Using VTK-m**](https://drive.google.com/file/d/1Bg-QwjTuF3aWrtNVbcXxtZaSyK7RXXC3/view?usp=sharing){:target="_blank"}  
 Integrating VTK-m with simulations for the planned experimental ITER fusion reactor.
 Images are generated in situ while the simulation is running.
@@ -33,7 +44,7 @@ Images are generated in situ while the simulation is running.
 <tr>
 <td markdown="1">
 [**Flow Visualization in WarpX Laser Wakefield Simulations**](https://drive.google.com/file/d/1UbunYc8QTpuwp8wTxxxP6HwJHNTjcB_3/view?usp=sharing){:target="_blank"}  
-Unlike for a typical fluid velocity field, particle trajectories for relativistic plasma and accelerator physics must be inferred from electromagnetic fields as well as the paricles' momentum.
+Unlike for a typical fluid velocity field, particle trajectories for relativistic plasma and accelerator physics must be inferred from electromagnetic fields as well as the particles' momentum.
 VTK-m's particle tracing was customize for the specifics of WarpX particle trajectories.
 </td>
 <td markdown="1" width="332">
@@ -64,7 +75,7 @@ A short retrospective and timeline of the origins of VTK-m.
 <tr>
 <td markdown="1">
 [**Enabling in situ visualization of petascale time-dependent CFD simulations**](https://drive.google.com/file/d/1v6teJjHniex6g7_knyrvdI57e2h8oNBI/view?usp=sharing){:target="_blank"}  
-Coupled to a PyFR CFD simulation throuh ParaView/Catalyst, VTK-m was used to visualize flow over a low pressure turbine linear cascalde.
+Coupled to a PyFR CFD simulation through ParaView/Catalyst, VTK-m was used to visualize flow over a low pressure turbine linear cascade.
 The simulation was done in situ with the simulation with the data remaining entirely on the GPU for maximum efficiency and performance.
 </td>
 <td markdown="1" width="332">
@@ -117,7 +128,7 @@ using 16,384 GPUs on LLNL's Sierra Supercomputer](https://drive.google.com/file/
 - [VTK-m poster from SciDAC PI Meeting](https://drive.google.com/file/d/1jfzZc-dqr3WXoGc7UuDSPHS5qP1Y5Zhw/view?usp=sharing){:target="_blank"} (July 2015)
 - [VTK-m](https://drive.google.com/file/d/1Pjcl4aO3MRS3l4tHu5NNemh2tGY0NZFK/view?usp=sharing){:target="_blank"} (DOECGF, April 29, 2015)
 - [VTK-m as a many-core solution for DOE](https://drive.google.com/file/d/1H_4JbrpmcmWW9hWctw0sBNn1ISVsIEHP/view?usp=sharing){:target="_blank"} (NVIDIA GTC, March 2015)
-- [VTK-m Overview from VTK-InSitu/Rendering Presentation](https://drive.google.com/file/d/1p7mtyaXfQE5wDHlR3FANMRk9G0dhx6F7/view?usp=sharing){:target="_blank"} (NVIDIA GTC , March 2015)
+- [VTK-m Overview from VTK-In Situ/Rendering Presentation](https://drive.google.com/file/d/1p7mtyaXfQE5wDHlR3FANMRk9G0dhx6F7/view?usp=sharing){:target="_blank"} (NVIDIA GTC , March 2015)
 - [VTK-m Overview for NVIDIA Design Review](https://drive.google.com/file/d/1V6AUsc_JYYjbBmZj8DgZHz2MY2o3Jb90/view?usp=sharing){:target="_blank"} (March 5, 2015)
 
 ---
