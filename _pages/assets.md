@@ -54,6 +54,18 @@ VTK-m's particle tracing was customize for the specifics of WarpX particle traje
 
 <tr>
 <td markdown="1">
+[**In Situ/In Transit Visualization with WarpX**](https://drive.google.com/file/d/14R28oecCSP0CskxCCMNX12R15FJ56-IK/view?usp=sharing){:target="_blank"}  
+VTK-m was used to perform in situ visualization and rendering during a simulation of a 10-stage laser-wakefield accelerator.
+The simulation was run on 600 GPUs on Summit at OLCF.
+This visualization was featured during the keynote talk of [ISAV 2020](https://vis.lbl.gov/events/ISAV2020/){:target="_blank"}.
+</td>
+<td markdown="1" width="332">
+![WarpXInSitu](/img/highlight-thumbnails/VTKm-WarpX-In-Situ-2020.jpg)
+</td>
+</tr>
+
+<tr>
+<td markdown="1">
 [**Large-Scale In Situ Visualization of  Raleigh-Taylor Instability with Ascent and VTK-m**](https://drive.google.com/file/d/1PxJVq6aIXWQc22WFiEkzcEnuz9NZFcAm/view?usp=sharing){:target="_blank"}  
 Coupled to a simulation through Ascent, VTK-m visualized a 97.8 billion element Raleigh-Taylor instability simulation on 4096 nodes of the Sierra computer at Lawrence Livermore National Laboratory.
 </td>
