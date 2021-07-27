@@ -3,7 +3,7 @@ title: Tutorial
 permalink: /tutorial
 ---
 
-This page contains materials for the VTK-m tutorial, which will be presented on Sunday, October 20th at the VIS19 conference in Vancouver, Canada. Attendees can get the slides [HERE](https://m-old.vtk.org/images/f/f3/VTKm_Tutorial_VIS19.pptx) and the user guide is [HERE](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-5.pdf). *This tutorial is based on VTK-m 1.5, the latests user guide for VTK-m 1.6 can be found [HERE](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-6.pdf)*
+This page contains materials for the VTK-m tutorial, which will be presented on Sunday, October 20th at the VIS19 conference in Vancouver, Canada. Attendees can get the slides [HERE](https://m-old.vtk.org/images/f/f3/VTKm_Tutorial_VIS19.pptx) and the user guide is [HERE](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-5.pdf). *Note that this tutorial is based on VTK-m 1.5, the latest user guide for VTK-m 1.6 can be found [HERE](https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/uploads/VTKmUsersGuide-1-6.pdf)*
 
 **There are two options for running code:**
 1. Building VTK-m on your own machine.
