@@ -6,4 +6,4 @@
   # Previously, Doxygen docs were hosted under "m.vtk.org/documentation/",
   # so provide a redirect to transition any old links
   from = "/documentation/*"
-  to = "https://docs-m.vtk.org/documentation/:splat"
+  to = "https://docs-m.vtk.org/:splat"
