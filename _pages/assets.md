@@ -112,6 +112,8 @@ PyFR, a CFD simulation that was coupled with ParaView/Catalyst, ran on 256 GPUs 
 
 # Presentations
 Here is a list of presentations about VTK-m for your reference.
+- [VTK-m: What it is, Why we need it, and How to use
+  it](https://drive.google.com/file/d/15fOt1Bu5uVpGwK0xS-htwakWN7cuAEBS/view?usp=sharing){:target="_blank"} (November 2021) ([slides](https://docs.google.com/presentation/d/1LPJOJ8sXHGHUyiglAOX0TJmNZBU5FMie/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"})
 - [Enabling Visualization on Exascale Accelerators with VTK-m](https://drive.google.com/file/d/16dYZFHv9zHGCZmKoBNX8c_W-li1mvrvM/view?usp=sharing){:target="_blank"} at RAPIDS2-DU Monthly Meeting (July 14, 2021)
 - [VTK-m Update](https://drive.google.com/file/d/1ZKJNJNJGG4ixIAtw64NPhI95QUbpeMxh/view?usp=sharing){:target="_blank"} at DOECGF (April 2021)
 - [VTK-m Update](https://drive.google.com/file/d/11P6pa-RtzKbX4nGsTD_YBJLP11IXOg_v/view?usp=sharing){:target="_blank"} at DOECGF (April 2020)
