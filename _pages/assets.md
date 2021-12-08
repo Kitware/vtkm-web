@@ -21,6 +21,18 @@ Below is a selected list of highlights generated for VTK-m related R&D.
 
 <tr>
 <td markdown="1">
+[**VTK-m Demonstrates Performance Portability**](https://docs.google.com/presentation/d/1hoUPhrZgd6jhPuYR4dC7NEOytu7jKDTz/view?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
+A literature survey reveals VTK-m algorithms run as efficiently as targeted implementations.
+When comparing an algorithm implemented in VTK-m to an algorithm written for a specific device, one would expect the targeted algorithm to run faster than the general VTK-m implementation.
+But in reviewing peer-reviewed papers providing such a comparison, on average the general VTK-m algorithm performed about the same as the targeted implementation.
+</td>
+<td markdown="1" width="332">
+![Performance Portability](/img/highlight-thumbnails/VTKm-MCD3-Portability.jpg)
+</td>
+</tr>
+
+<tr>
+<td markdown="1">
 [**In Situ Vector Field Reduction Using Lagrangian Basis Flows**](https://drive.google.com/file/d/1tF0OYWwttFsAy81CJbL9-kwxFhOWShIg/view?usp=sharing){:target="_blank"}  
 Lagrangian Basis Flows are an alternate representation of flow fields that record displacement rather than velocity.
 VTK-m is used to compute Lagrangian Basis Flows in situ with simulation to reduce I/O demands and improve post hoc analysis accuracy.
