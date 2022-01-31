@@ -145,8 +145,8 @@ using 16,384 GPUs on LLNL's Sierra Supercomputer](https://drive.google.com/file/
 - [VTK-m Highlight Prepared for SDAV](https://drive.google.com/file/d/1sTRSh0SF5x3pICda-QUpmMfj2PYgYYPG/view?usp=sharing){:target="_blank"}
 - [ECP/VTK-m poster](https://drive.google.com/file/d/10A-oceNzwVYBNkZpuY5p1R4bEg-gO9b9/view?usp=sharing){:target="_blank"} (ECP Annual Meeting, January 2017)
 - [DOE Visualization Software](https://drive.google.com/file/d/1hJQTwrNZIK5I3tgqsVJoTfQ_i8m4fE5f/view?usp=sharing){:target="_blank"} (ECP Annual Meeting, January 2017)
-- [VTK-m: Accelerating the Visualization Toolkit for Massively Threaded Architectures](https://drive.google.com/file/d/1xPN2BB5liH1YsTe481vcfhuychb1zhsr/view?usp=sharing){:target="_blank"}, DOECGF 2016
-- [Adapting the Visualization Toolkit for Many-Core Processors with the VTK-m Library](https://drive.google.com/file/d/1wHSL6Hl8MdPhBr4OYq83f5LZHddvp537/view?usp=sharing){:target="_blank"} (NVIDIA GTC, - April 6, 2016)
+- [VTK-m: Accelerating the Visualization Toolkit for Massively Threaded Architectures](https://drive.google.com/file/d/1wHSL6Hl8MdPhBr4OYq83f5LZHddvp537/view?usp=sharing){:target="_blank"}, DOECGF 2016
+- [Adapting the Visualization Toolkit for Many-Core Processors with the VTK-m Library](https://drive.google.com/file/d/1xPN2BB5liH1YsTe481vcfhuychb1zhsr/view?usp=sharing){:target="_blank"} (NVIDIA GTC, - April 6, 2016)
 - [SC15 Kitware Booth Presentations](/img/presentations/SC15_Kitware_Booth_Presentations){:target="_blank"} (November 17-19, 2015)
 - [VTK-m: Building a Visualization Toolkit for Massively Threaded Architectures](https://drive.google.com/file/d/1Nhj4kT6EqEilGBIJx3-DvrvhbYFhWl3A/view?usp=sharing){:target="_blank"} (November 16, 2015)
 - [VTK-m Overview for Intel Design Review](https://drive.google.com/file/d/1m8AdBp8i5cBD_6LyW5UU-pdDq2Zp82nT/view?usp=sharing){:target="_blank"} (October 12, 2015)
