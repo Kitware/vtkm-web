@@ -1,0 +1,8 @@
+# Previously, Doxygen docs were hosted under "m.vtk.org/documentation/",
+# so provide a redirect to transition any old links
+
+# Place this more specific rule first, so it's matched first
+/documentation/nightly/* https://docs-m.vtk.org/nightly/:splat 301
+
+# Otherwise, consider "latest" to be the canonical version
+/documentation/* https://docs-m.vtk.org/latest/:splat 301
