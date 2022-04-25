@@ -21,7 +21,10 @@ defaults:
     values:
       layout: 'default'
 
-include: ['_pages']
+include:
+  - '_pages'
+  # Cloudflare Pages requires _redirects to be in the output directory
+  - '_redirects'
 
 exclude:
   - '*.config.js'
