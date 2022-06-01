@@ -21,7 +21,7 @@ Below is a selected list of highlights generated for VTK-m related R&D.
 
 <tr>
 <td markdown="1">
-[**Accelerated Poincaré Plots**](https://docs.google.com/presentation/d/1GdY6uUmdsbi9Kpnb3lc1WQci5XV4Mim9/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
+[**Accelerated Poincaré Plots**](https://docs.google.com/presentation/d/1GdY6uUmdsbi9Kpnb3lc1WQci5XV4Mim9/export/pptx){:target="_blank"}  
 VTK-m has reduced the time to compute a Poincaré plot from 2 hours down to 7 minutes. 
 Poincaré plots are instrumental to the WDMApp project to understand the energy transport that occurs as energetic particles interact with components in the ITER reactor. 
 A single Poincaré plot shows the cross section of many particle traces that iterate several times around the fusion reactor, which is computationally intensive to generate. 
