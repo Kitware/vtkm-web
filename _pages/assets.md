@@ -21,6 +21,19 @@ Below is a selected list of highlights generated for VTK-m related R&D.
 
 <tr>
 <td markdown="1">
+[**Accelerated Poincaré Plots**](https://docs.google.com/presentation/d/1GdY6uUmdsbi9Kpnb3lc1WQci5XV4Mim9/export/pptx){:target="_blank"}  
+VTK-m has reduced the time to compute a Poincaré plot from 2 hours down to 7 minutes. 
+Poincaré plots are instrumental to the WDMApp project to understand the energy transport that occurs as energetic particles interact with components in the ITER reactor. 
+A single Poincaré plot shows the cross section of many particle traces that iterate several times around the fusion reactor, which is computationally intensive to generate. 
+This efficiency was achieved by leveraging VTK-m’s GPU particle tracing capabilities.
+</td>
+<td markdown="1" width="332">
+![Poincare Plots](/img/highlight-thumbnails/WDMApp-Poincare-Highlight-2022-05.jpg)
+</td>
+</tr>
+
+<tr>
+<td markdown="1">
 [**VTK-m Demonstrates Performance Portability**](https://docs.google.com/presentation/d/1hoUPhrZgd6jhPuYR4dC7NEOytu7jKDTz/view?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
 A literature survey reveals VTK-m algorithms run as efficiently as targeted implementations.
 When comparing an algorithm implemented in VTK-m to an algorithm written for a specific device, one would expect the targeted algorithm to run faster than the general VTK-m implementation.
