@@ -32,7 +32,7 @@ resources:
     link: 'https://gitlab.kitware.com/vtk/vtk-m/blob/master/CONTRIBUTING.md'
   - name: Mailing List
     icon: ri-send-plane-fill
-    link: 'http://vtk.org/mailman/listinfo/vtkm'
+    link: 'http://public.kitware.com/mailman/listinfo/vtkm'
   - name: User Guide
     icon: ri-book-2-fill
     link: 'https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/home'

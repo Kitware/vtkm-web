@@ -13,7 +13,7 @@
       url: http://m.vtk.org/documentation/
       new_tab: true
     - name: Mailing List
-      url: http://vtk.org/mailman/listinfo/vtkm
+      url: http://public.kitware.com/mailman/listinfo/vtkm
       new_tab: true
     - name: Software Dependencies
       url: https://gitlab.kitware.com/vtk/vtk-m/blob/master/README.md#dependencies
@@ -28,5 +28,5 @@
     - name: Publications
       url: /#publications
 - name: Contact
-  url: https://vtk.org/mailman/listinfo/vtkm
+  url: https://public.kitware.com/mailman/listinfo/vtkm
   new_tab: true
