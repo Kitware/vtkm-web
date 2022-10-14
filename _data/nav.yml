@@ -19,7 +19,8 @@
       url: https://gitlab.kitware.com/vtk/vtk-m/blob/master/README.md#dependencies
       new_tab: true
     - name: Tutorial
-      url: /tutorial
+      url: https://gitlab.kitware.com/vtk/vtk-m/-/tree/master/tutorial
+      new_tab: true
     - name: User Guide
       url: https://gitlab.kitware.com/vtk/vtk-m-user-guide/-/wikis/home
       new_tab: true
