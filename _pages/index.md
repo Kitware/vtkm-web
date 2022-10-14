@@ -41,7 +41,7 @@ resources:
     link: 'http://m.vtk.org/documentation/'
   - name: Tutorial
     icon: ri-lightbulb-flash-fill
-    link: '/tutorial'
+    link: https://gitlab.kitware.com/vtk/vtk-m/-/tree/master/tutorial
   - name: VTK-m Assets
     icon: ri-database-line
     link: '/assets'
