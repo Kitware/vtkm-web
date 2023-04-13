@@ -21,6 +21,19 @@ Below is a selected list of highlights generated for VTK-m related R&D.
 
 <tr>
 <td markdown="1">
+[**Accelerating ParaView on Crusher**](https://docs.google.com/presentation/d/1weRifm4d5DpZopJBfctyXnRVosK7gf5_/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
+ParaView was demonstrated running on Crusher and using VTK-m to accelerate operations on its GPUS.
+Crusher is the ORNL early-access cluster for Frontier, the first supercomputer to report over an exaFLOPS of computation.
+These machines rely on GPUs for the bulk of their computation power.
+When ParaView was run on crusher, select filters are automatically replaced with VTK-m implementations that run accelerated on the GPU.
+</td>
+<td markdown="1" width="332">
+![ParaView-VTK-m Crusher](/img/highlight-thumbnails/paraview-vtkm-crusher-2023.jpg)
+</td>
+</tr>
+
+<tr>
+<td markdown="1">
 [**Accelerated Poincaré Plots**](https://docs.google.com/presentation/d/1GdY6uUmdsbi9Kpnb3lc1WQci5XV4Mim9/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
 VTK-m has reduced the time to compute a Poincaré plot from 2 hours down to 7 minutes. 
 Poincaré plots are instrumental to the WDMApp project to understand the energy transport that occurs as energetic particles interact with components in the ITER reactor. 
