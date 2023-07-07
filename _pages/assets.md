@@ -21,6 +21,18 @@ Below is a selected list of highlights generated for VTK-m related R&D.
 
 <tr>
 <td markdown="1">
+[**Uncertainty Visualization of Marching Cubes**](https://docs.google.com/presentation/d/1fDU0CWx-EufXAIjRhuln_cRhmp2QUp-w/edit?usp=drive_link&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
+FunMC², a filter for computing probable contours in the face of uncertainty, was implemented in VTK-m.
+Uncertainty adds significant computational load to operations like Marching Cubes, which had to consider multiple cases simultaneously.
+These algorithms were accelerated in VTK-m and demonstrated large speedups on GPU systems.
+</td>
+<td markdown="1" width="332">
+![FunMC^2](/img/highlight-thumbnails/FunMC2Highlight.jpg)
+</td>
+</tr>
+
+<tr>
+<td markdown="1">
 [**Accelerating ParaView on Crusher**](https://docs.google.com/presentation/d/1weRifm4d5DpZopJBfctyXnRVosK7gf5_/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
 ParaView was demonstrated running on Crusher and using VTK-m to accelerate operations on its GPUS.
 Crusher is the ORNL early-access cluster for Frontier, the first supercomputer to report over an exaFLOPS of computation.
