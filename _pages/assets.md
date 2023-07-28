@@ -21,6 +21,17 @@ Below is a selected list of highlights generated for VTK-m related R&D.
 
 <tr>
 <td markdown="1">
+[**VTK-m Rendering at Scale on Frontier**](https://docs.google.com/presentation/d/1uAVVWM8p8bf4Vpojtl6evLsNH1NC6DOo/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
+VTK-m rendering was demonstrated at scale on the Frontier supercomputer.
+Frontier is the world's first exascale supercomputer, and a VTK-m rendering benchmark was able to run on the majority of its compute nodes.
+</td>
+<td markdown="1" width="332">
+![VTK-m on Frontier](/img/highlight-thumbnails/VTKm_scaling_Frontier_2023.jpg)
+</td>
+</tr>
+
+<tr>
+<td markdown="1">
 [**Uncertainty Visualization of Marching Cubes**](https://docs.google.com/presentation/d/1fDU0CWx-EufXAIjRhuln_cRhmp2QUp-w/edit?usp=drive_link&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
 FunMC², a filter for computing probable contours in the face of uncertainty, was implemented in VTK-m.
 Uncertainty adds significant computational load to operations like Marching Cubes, which had to consider multiple cases simultaneously.
