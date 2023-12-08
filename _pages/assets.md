@@ -31,6 +31,16 @@ The accelerated Poincaré plotting implemented with VTK-m has been enhanced to e
 
 <tr>
 <td markdown="1">
+[**WarpX on Frontier with In Situ Visualization**](https://docs.google.com/presentation/d/1R1wT4aZtvKTui6OCQ7au1DCbwxeadyA3/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
+VTK-m was used for an In Situ visualization of a 4.6 billion element WarpX laser wakefield simulation running on Frontier with 4416 GPUs on 552 nodes.
+</td>
+<td markdown="1" width="332">
+![WarpX on Frontier](/img/highlight-thumbnails/WarpX-Frontier-VTKm-2023.webp)
+</td>
+</tr>
+
+<tr>
+<td markdown="1">
 [**VTK-m Rendering at Scale on Frontier**](https://docs.google.com/presentation/d/1uAVVWM8p8bf4Vpojtl6evLsNH1NC6DOo/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
 VTK-m rendering was demonstrated at scale on the Frontier supercomputer.
 Frontier is the world's first exascale supercomputer, and a VTK-m rendering benchmark was able to run on the majority of its compute nodes.
