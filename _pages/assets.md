@@ -21,6 +21,16 @@ Below is a selected list of highlights generated for VTK-m related R&D.
 
 <tr>
 <td markdown="1">
+[**Mode Analysis with Poincaré Plots**](https://docs.google.com/presentation/d/10nXgglfiii56wMsG7Tg0PK4mvY_SXPC2/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
+The accelerated Poincaré plotting implemented with VTK-m has been enhanced to enable mode analysis. This mode analysis is allowing fusion scientists to understand homoclinic tangles, a feature in the magnetic confinement in tokamak fusion reactors that is the theoretical cause of significant electron energy loss.
+</td>
+<td markdown="1" width="332">
+![Poincaré Mode Analysis](/img/highlight-thumbnails/HBPS-PoincareAnalysis-Highlight_csc-2023.webp)
+</td>
+</tr>
+
+<tr>
+<td markdown="1">
 [**VTK-m Rendering at Scale on Frontier**](https://docs.google.com/presentation/d/1uAVVWM8p8bf4Vpojtl6evLsNH1NC6DOo/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"}  
 VTK-m rendering was demonstrated at scale on the Frontier supercomputer.
 Frontier is the world's first exascale supercomputer, and a VTK-m rendering benchmark was able to run on the majority of its compute nodes.
