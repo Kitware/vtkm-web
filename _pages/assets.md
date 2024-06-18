@@ -193,6 +193,8 @@ PyFR, a CFD simulation that was coupled with ParaView/Catalyst, ran on 256 GPUs 
 
 # Presentations
 Here is a list of presentations about VTK-m for your reference.
+- [Using VTK-m in ParaView and Catalyst](https://docs.google.com/presentation/d/1m1pn-SKoP6jJMkBJf3aEa_UeqFz6AoO1/edit?usp=drive_link&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"} at ParaView and Catalyst, CASS Community BOF (June 12, 2024)
+- [VTK-m Update](https://docs.google.com/presentation/d/1elDRazCOltnPTfdHoXvycTZq9eQVTTBo/edit?usp=drive_link&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"} at DOECGF (April 2024)
 - [Enabling Visualization at the Exascale with VTK-m](https://drive.google.com/file/d/1Jshxng6OnvZK2t93TeebRn2V01FbjbkX/view?usp=sharing){:target="_blank"} at LDAV 2023 Keynote (October 23, 2023) ([slides](https://docs.google.com/presentation/d/1NzQ-vEljikgsSoPxUu8dW5mMkTY_1FM1/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"})
 - [VTK-m: Visualization for the Exascale Era and Beyond](https://docs.google.com/presentation/d/1nbER0hGMqhaTU6Hw7pPAIXQ4OntJUIui/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"} at ACM SIGGRAPH Talks (August 2023)
 - [VTK-m Update](https://docs.google.com/presentation/d/18ZDCTHXL2kg5-4IKxaYadsCxGLzfuRH8/edit?usp=sharing&ouid=116647203761758154126&rtpof=true&sd=true){:target="_blank"} at DOECGF (April 2023)
